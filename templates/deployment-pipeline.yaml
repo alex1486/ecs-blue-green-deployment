@@ -262,7 +262,7 @@ Resources:
               commands:
                 - pip install --upgrade python
                 - pip install --upgrade awscli
-                - pip3 install --upgrade boto3
+                - python -m pip install --user boto3
             pre_build:
               commands:
                 - printenv
